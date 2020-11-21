@@ -7,6 +7,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Yosra's Portfolio</title>
+  <link rel="stylesheet" href="./styley.css">
+  <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Righteous' rel='stylesheet'>
 
 </head>
 
@@ -14,49 +18,76 @@
 
 <header>
   <nav>
-    <ul>
-      <li>Home</li>
-      <li><a href="#about"><b>Who I am</b></a></li>
-      <li><a href="#projects"><b>Projects</b></a></li>
-      <li> <a href="#contact"><b>Contact Me</b></a></li>
-     
+    <div class="logo">
+      <h4>YOSRA</h4>
+    </div>
+    
+    <ul class="buttons">
+      <li><a href="#">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#work">Work</a></li>
+      <li><a href="#contact">Contact</a></li>
     </ul>
   </nav>
+
+  <div class="intro">
+    <p>Hello,</p> 
+    <p>I'M YOSRA</p>
+    <p>I AM A WEB DEVELOPER <br> STUDENT LOCATED IN TUNISIA.</p>
+    <button class="hireme">Hire me</button>
+    <button class="cv">Download CV</button>
+  </div>
 </header>
 
-<br>
 
-  <section id="about">
+<section id="about" class="about-sec"> 
 
-    <h1>HI, <br> I'M YOSRA SAHNOUN <br> A WEB DEVELOPER STUDENT</h1>
+  <img class="web" src="./res/web.PNG" alt="image">
 
-    <p> I am a business student at ESB.
-      <br>  I will create this portfolio as part of my web development project. </p>
-    
+  <div class="text">
+    <p>About Me</p>
+    <p>Developer</p>
+    <p>Hello, my name is Yosra Sahnoun. I am a web developer. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure in ducimus,
+      tenetur facere repellendus ipsa beatae minus est laudantium nobis tempora
+      suscipit sunt tempore reprehenderit nulla necessitatibus!</p>
+    <p>If you want to create a website for your project or your business, contact me. </p>
+
+    <button>Hire Me</button>
+  </div>
 
 </section>
 
-<section id="projects">
 
-  <h2>PROJECTS</h2>
 
-  <article>
-    <h4>Wistia Interface Application</h4>
-    <p>This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-    <img src="./res/Wista.jpg" alt="Wistia Interface Application">
-  </article>
+<section id="work" class="works">
 
-  <article>
-    <h4>Form Validation</h4>
-    <p>This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer. </p>
-    <img src="./res/Form.jpg" alt="Form Validation">
-  </article>
+  <div class="work-text">
+    <p>WORK</p>
+    <p>Here's a sample of my work</p>
+  </div>
 
-  <article>
-    <h4>Shopping Cart</h4>
-    <p>This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer. </p>
-    <img src="./res/Shopping.jpg" alt="Shopping cart">
-  </article>
+  <div class="box">
+    
+    <article class="box1">
+      <p>Wistia Interface Application</p>
+      <p>This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      <!--<img src="./res/Wista.jpg" alt="Wistia Interface Application">   -->
+
+    </article>
+
+    <article class="box2">
+      <p>Form Validation</p>
+      <p>This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer. </p>
+      <!--<img src="./res/Form.jpg" alt="Form Validation">-->
+    </article>
+
+    <article class="box3">
+      <p>Shopping Cart</p>
+      <p>This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer. </p>
+      <!--<img src="./res/Shopping.jpg" alt="Shopping cart">-->
+    </article>
+
+  </div>
 
 </section>
 
